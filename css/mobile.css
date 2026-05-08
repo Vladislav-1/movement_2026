@@ -1,1 +1,142 @@
+/* -- Для экранов до 768 px (планшеты и смартфоны): -- */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .header__title {
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .main__left {
+    width: 100%;
+    padding: 10px;
+    min-height: auto;
+    position: static;
+    top: auto;
+  }
+
+  .main__right {
+    width: 100%;
+  }
+
+  .box-content__Presentaciya {
+    flex-direction: column;
+  }
+
+  .Presentaciya__left {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Presentaciya__icon {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .Presentaciya__center {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .dohod1__box-usloviya {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+  margin-top: 20px;
+  background: rgb(170, 255, 255);
+  padding: 20px;
+}
+ }
+
+/* -- Для очень маленьких экранов (до 480 px): -- */
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .header__title {
+    text-align: center;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .main__left {
+    width: 100%;
+    padding: 10px;
+    min-height: auto;
+    position: static;
+    top: auto;
+  }
+
+  .main__right {
+    width: 100%;
+  }
+
+  .box-content__Presentaciya {
+    flex-direction: column;
+  }
+
+  .Presentaciya__left {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .Presentaciya__icon {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .Presentaciya__center {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .dohod1__box-usloviya {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 25px;
+  margin-top: 20px;
+  background: rgb(170, 255, 255);
+  padding: 20px;
+}
+}
 
