@@ -1,1 +1,668 @@
+<!doctype html>
+<html lang="ru-Ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Движение 2026</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-------------- ШАПКА САЙТА -------------->
+    <header class="header">
+      <h1 class="header__title">Программа «Движение 2026»</h1>
+    </header>
+    <!-------------- ОСНОВНОЙ РАЗДЕЛ САЙТА -------------->
+    <main class="main">
+        <!-------------- МЕНЮ САЙТА -------------->
+        <div class="main__left">
+        <ul>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__Presentaciya()">Презентация партии</a>
+          </li>
+          <hr class="main__hr" style="margin-top: 20px; margin-bottom: 20px;"/>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show_LSH_KtoMozhet()"
+              >Кто может стать ЛШ</a
+            >
+          </li>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show_osnovnye_Zadachi()">Основные задачи ЛШ</a>
+          </li>
+          <li class="main__elem"><a href="#" class="main__link" onclick="show__dohod1()">ДОХОД 1</a></li>
+          <li class="main__elem"><a href="#" class="main__link" onclick="show__dohod2()">ДОХОД 2</a></li>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__rasschetBallovLSH()">Расчёт баллов для ЛШ</a>
+          </li>
+          <hr class="main__hr"  style="margin-top: 20px; margin-bottom: 20px;"/>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__KoordinatorKtoMozhetStat()">Кто может стать КР</a>
+          </li>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__KoordinatorOsnovnyeZadachi()">Основные задачи КР</a>
+          </li>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__KoordinatorDohod()">Доход КР</a>
+          </li>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__dopolnitelnyBonusAktivnymKoordinatoram()">Для активных КР</a>
+          </li>
+        </ul>
+      </div>
+      <!-------------- ВЫВОД ОСНОВНОГО КОНТЕНТА САЙТА -------------->
+      <div class="main__right">
+        <div class="box-content">
+            <!-------------- ПРЕЗЕНТАЦИЯ -------------->
+            <div class="box-content__Presentaciya" id="Presentaciya">
+                <!-------------- ИКОНКИ -------------->
+                <div class="Presentaciya__left">
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_1.jpg" alt="Слайд № 1" id="icon_1" onclick="show__slide_1()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_2.jpg" alt="Слайд № 2" id="icon_2" onclick="show__slide_2()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_3.jpg" alt="Слайд № 3" id="icon_3" onclick="show__slide_3()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_4.jpg" alt="Слайд № 4" id="icon_4" onclick="show__slide_4()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_5.jpg" alt="Слайд № 5" id="icon_5" onclick="show__slide_5()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_6.jpg" alt="Слайд № 6" id="icon_6" onclick="show__slide_6()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_7.jpg" alt="Слайд № 7" id="icon_7" onclick="show__slide_7()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_8.jpg" alt="Слайд № 8" id="icon_8" onclick="show__slide_8()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_9.jpg" alt="Слайд № 9" id="icon_9" onclick="show__slide_9()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_10.jpg" alt="Слайд № 10" id="icon_10" onclick="show__slide_10()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_11.jpg" alt="Слайд № 11" id="icon_11" onclick="show__slide_11()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_12.jpg" alt="Слайд № 12" id="icon_12" onclick="show__slide_12()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_13.jpg" alt="Слайд № 13" id="icon_13" onclick="show__slide_13()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_14.jpg" alt="Слайд № 14" id="icon_14" onclick="show__slide_14()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_15.jpg" alt="Слайд № 15" id="icon_15" onclick="show__slide_15()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_16.jpg" alt="Слайд № 16" id="icon_16" onclick="show__slide_16()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_17.jpg" alt="Слайд № 17" id="icon_17" onclick="show__slide_17()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_18.jpg" alt="Слайд № 18" id="icon_18" onclick="show__slide_18()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_19.jpg" alt="Слайд № 19" id="icon_19" onclick="show__slide_19()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_20.jpg" alt="Слайд № 20" id="icon_20" onclick="show__slide_20()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_21.jpg" alt="Слайд № 21" id="icon_21" onclick="show__slide_21()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_22.jpg" alt="Слайд № 22" id="icon_22" onclick="show__slide_22()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_23.jpg" alt="Слайд № 23" id="icon_23" onclick="show__slide_23()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_24.jpg" alt="Слайд № 24" id="icon_24" onclick="show__slide_24()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_25.jpg" alt="Слайд № 25" id="icon_25" onclick="show__slide_25()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_26.jpg" alt="Слайд № 26" id="icon_26" onclick="show__slide_26()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_27.jpg" alt="Слайд № 27" id="icon_27" onclick="show__slide_27()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_28.jpg" alt="Слайд № 28" id="icon_28" onclick="show__slide_28()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_29.jpg" alt="Слайд № 29" id="icon_29" onclick="show__slide_29()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_30.jpg" alt="Слайд № 30" id="icon_30" onclick="show__slide_30()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_31.jpg" alt="Слайд № 31" id="icon_31" onclick="show__slide_31()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_32.jpg" alt="Слайд № 32" id="icon_32" onclick="show__slide_32()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_33.jpg" alt="Слайд № 33" id="icon_33" onclick="show__slide_33()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_34.jpg" alt="Слайд № 34" id="icon_34" onclick="show__slide_34()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_35.jpg" alt="Слайд № 35" id="icon_35" onclick="show__slide_35()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_36.jpg" alt="Слайд № 36" id="icon_36" onclick="show__slide_36()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_37.jpg" alt="Слайд № 37" id="icon_37" onclick="show__slide_37()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_38.jpg" alt="Слайд № 38" id="icon_38" onclick="show__slide_38()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_39.jpg" alt="Слайд № 39" id="icon_39" onclick="show__slide_39()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_40.jpg" alt="Слайд № 40" id="icon_40" onclick="show__slide_40()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_41.jpg" alt="Слайд № 41" id="icon_41" onclick="show__slide_41()">
+                    </article>
+                    <article class="Presentaciya__icon">
+                        <img src="img_icon/ico_42.jpg" alt="Слайд № 42" id="icon_42" onclick="show__slide_42()">
+                    </article>
+                </div>
+                <!-------------- СЛАЙДЫ БОЛЬШИЕ -------------->
+                <div class="Presentaciya__center">
+                    <article class="Presentaciya__slide">
+                        <img src="images/1.jpg" alt="Слайд № 1" id="slide_1">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/2.jpg" alt="Слайд № 2" id="slide_2">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/3.jpg" alt="Слайд № 3" id="slide_3">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/4.jpg" alt="Слайд № 4" id="slide_4">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/5.jpg" alt="Слайд № 5" id="slide_5">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/6.jpg" alt="Слайд № 6" id="slide_6">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/7.jpg" alt="Слайд № 7" id="slide_7">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/8.jpg" alt="Слайд № 8" id="slide_8">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/9.jpg" alt="Слайд № 9" id="slide_9">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/10.jpg" alt="Слайд № 10" id="slide_10">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/11.jpg" alt="Слайд № 11" id="slide_11">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/12.jpg" alt="Слайд № 12" id="slide_12">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/13.jpg" alt="Слайд № 13" id="slide_13">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/14.jpg" alt="Слайд № 14" id="slide_14">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/15.jpg" alt="Слайд № 15" id="slide_15">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/16.jpg" alt="Слайд № 16" id="slide_16">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/17.jpg" alt="Слайд № 17" id="slide_17">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/18.jpg" alt="Слайд № 18" id="slide_18">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/19.jpg" alt="Слайд № 19" id="slide_19">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/20.jpg" alt="Слайд № 20" id="slide_20">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/21.jpg" alt="Слайд № 21" id="slide_21">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/22.jpg" alt="Слайд № 22" id="slide_22">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/23.jpg" alt="Слайд № 23" id="slide_23">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/24.jpg" alt="Слайд № 24" id="slide_24">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/25.jpg" alt="Слайд № 25" id="slide_25">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/26.jpg" alt="Слайд № 26" id="slide_26">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/27.jpg" alt="Слайд № 27" id="slide_27">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/28.jpg" alt="Слайд № 28" id="slide_28">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/29.jpg" alt="Слайд № 29" id="slide_29">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/30.jpg" alt="Слайд № 30" id="slide_30">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/31.jpg" alt="Слайд № 31" id="slide_31">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/32.jpg" alt="Слайд № 32" id="slide_32">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/33.jpg" alt="Слайд № 33" id="slide_33">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/34.jpg" alt="Слайд № 34" id="slide_34">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/35.jpg" alt="Слайд № 35" id="slide_35">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/36.jpg" alt="Слайд № 36" id="slide_36">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/37.jpg" alt="Слайд № 37" id="slide_37">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/38.jpg" alt="Слайд № 38" id="slide_38">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/39.jpg" alt="Слайд № 39" id="slide_39">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/40.jpg" alt="Слайд № 40" id="slide_40">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/41.jpg" alt="Слайд № 41" id="slide_41">
+                    </article>
+                    <article class="Presentaciya__slide">
+                        <img src="images/42.jpg" alt="Слайд № 42" id="slide_42">
+                    </article>
+                    <!--<div class="center__strelki-upravleniya">
+                        <button class="strelki-upravleniya__nazad">Назад</button>
+                        <button class="strelki-upravleniya__vpered">Вперёд</button>
+                    </div>-->
+                </div>
+                <!-------------- КНОПКА "ЗАКРЫТЬ" ПРЕЗЕНТАЦИЮ -------------->
+                <div class="Presentaciya__right">
+                    <button class="hidden__Presentaciya" onclick="hiddenPresentaciya()">Закрыть</button>
+                </div>
+            </div>
+            <!-------------- КТО МОЖЕТ СТАТЬ ЛШ -------------->
+            <div class="box-content__LSH-KtoMozhet" id="LSH-KtoMozhet">
+            <h2 class="LSH-KtoMozhet__title">
+              Кто может стать Лидером Штаба (ЛШ)
+            </h2>
+            <p class="LSH-KtoMozhet__text">
+              Для участия в программе в качестве ЛШ необходимо соответствовать
+              следующим требованиям:
+            </p>
+            <ul>
+              <li>
+                Быть гражданином <strong>РФ</strong>, достигшим возраста
+                <strong>18 лет</strong>, и старше.
+              </li>
+              <li>
+                <strong>Проживать</strong> и
+                <strong>быть зарегистрированным</strong> на территории, где
+                проводится программа.
+              </li>
+              <li>
+                Быть <strong>Активным Консультантом</strong> в любом статусе по
+                маркетинговому плану (МП).
+              </li>
+            </ul>
+            <button
+              class="LSH-KtoMozhet__hidden"
+              onclick="hidden_LSH_KtoMozhet()"
+            >
+              Закрыть
+            </button>
+          </div>
+          <!-------------- ОСНОВНЫЕ ЗАДАЧИ ЛШ -------------->
+          <div class="box-content__osnovnyeZadachi" id="osnovnyeZadachi">
+            <h2 class="osnovnyeZadachi__title">Основные задачи ЛШ</h2>
+            <p class="osnovnyeZadachi__text">
+                <ol>
+                    <li>1. <strong>Регистрация</strong>: <a href="https://forms.gle/fnJPAXRTtswLasvs7" target="_blank">Зарегистрироваться</a> на сайте программы по
+ссылке помощника Регионального Представителя.</li>
+                    <li>2. <strong>Верификация</strong>: Подтвердить регистрационные данные, включая номер и внесение
+данных для Соглашения и Договора.</li>
+                    <li>3. <strong>Набор команды «Торнадо»</strong>:
+                        <ul>
+                            <li>Включить Координаторов (КР) в первую линию (<b>не более 30 КР</b>).</li>
+                            <li>Привлечь Сторонников (СТ) в первую линию.</li>
+                        </ul>
+
+</li>
+                    <li>4. <strong>Контроль верификации</strong>: Следить за процессом подтверждения статуса
+участников команды.</li>
+                    <li>5. <strong>Организация активности</strong>: Участвовать во всех мероприятиях программы,
+организовывать работу КР и контролировать голосование на выборах.
+<br>- Один ЛШ управляет несколькими КР, каждый из которых привлекает минимум
+одного СТ.</li>
+                </ol>
+            </p>
+            <button class="osnovnyeZadachi__hidden" onclick="hidden_osnovnyeZadachi()">Закрыть</button>
+          </div>
+          <!-------------- ДОХОД 1 ЛШ -------------->
+          <div class="box-content__dohod1" id="dohod1">
+            <h2 class="dovod1__title">ДОХОД 1 ЛШ</h2>
+            <h3 class="dohod1__privlechenieStoronnikov">Доход от привлеченных СТ:</h3>
+            <div class="dohod1__text">
+                <ul>
+                    <li>Каждый КР привлек 10 СТ.</li>
+                    <li>Всего: 5 КР × 10 СТ = 50 СТ</li>
+                </ul>
+                <p>Доход рассчитывается по двумя составляющим:</p>
+                <p> 1) За каждого СТ выплачивается 50 руб.:</p>
+                <p style="margin-left: 30px;">50 СТ × 50 руб. = <b>2 500</b> руб.</p>
+                <p>2) Дополнительно, за лично привлеченных 10 СТ выплачивается повышенный
+тариф — 150 руб.:</p>
+                    <p style="margin-left: 30px;">10 СТ × 150 руб. = <b>1 500</b> руб. </p>
+                    <p>Доход ЛШ может составить за 1 период:</p>
+                    <p style="margin-left: 30px;">2 500 + 1 500 = <b><span class="fs_15">4 000</span></b> руб.</p>
+                    <br>____________________
+                    <p style="font-size: 0.7em;">За 6 периодов:</p>
+                    <p style="margin-left: 30px;font-size: 0.7em;">4 000 × 6 = <span class="fs_15"><b>24 000</b></span> руб.</p>
+            </div>
+            <div class="dohod1__box-bonusy">
+                <h3 class="dohod1__bonusy">Дополнительный бонус</h3>
+                <p></p>
+                <p><b>20 промокодов</b> (как ЛШ) приносят по 500 руб.:</p>
+                <p style="margin-left: 30px;">20 × 500 руб. = <b>10 000</b> руб.</p>
+                <p style="margin-top: 5px;"><b>5 промокодов</b> за каждого СТ:</p>
+                <p style="margin-left: 30px;">5 × 500 руб. = <b>2 500</b> руб.</p>
+                <p style="margin-top: 10px;">Всего: 10 000 + 2 500 = <b>12 500</b> руб.</p>
+                <p style="margin-top: 20px;"><b>5 промокодов</b> за каждого КР:</p>
+                <p style="margin-left: 30px;">5 × 500 руб. = <b>2 500</b> руб.</p>
+                <p style="margin-top: 10px;">Всего 5 КР, итого:</p>
+                <p style="margin-left: 30px;"> 2 500 × 5 = <b>12 500</b> руб.</p>
+                <p style="margin-top: 20px;"><b>ИТОГО</b>:</p>
+                <p style="margin-left: 30px;"><b><span class="fs_15">25 000</span></b> руб. - инвестиция от партии <b>ПРОМО-КОДАМИ</b> в наш бизнес Faberlic</p>
+                <div class="dohod1__box-usloviya">
+                    <div class="box-usloviya__left">
+                        <h4 class="box-usloviya__title">Важные условия для получения бонуса промо-кодами</h4>
+                    </div>
+                    <div class="box-usloviya__right">
+                        <p><b>Определить</b> основную <b>территорию работы</b> вне зависимости от места
+проживания(!).</p>
+<p style="margin-top: 20px;"> <b>Набрать команду</b>, состоящую из КР и СТ на выбранной территории.</p>
+<p style="margin-top: 20px;">Бонус начисляется <b>только в случае победы</b> команды на выбранной территории.</p>
+<p style="margin-top: 20px;">Если команда действует <b>на другой территории</b>, ЛШ может регистрировать КР и СТ
+там, но <b>бонус за «Торнадо»</b> (дополнительное бонусное вознаграждение по итогам выборов) в этом случае <b>не
+учитывается</b>.</p>
+                    </div>
+                    
+                </div>
+                <h3>Итоговый расчет по дополнительному бонусу</h3>
+                <p>Суммарный доход <b>за 1 период</b> составляет:</p>
+                <p style="margin-left: 30px;">10 000 + 2 500 + 12 500 = <span class="fs_15"><b>25 000</b></span> руб.</p>
+                <p>Это эквивалентно &asymp; <b>277</b> баллам:</p>
+                <p style="margin-top: 5px;">Расчет:</p>
+                <p style="margin-left: 30px;">25 000/90 = <b>277,77</b> балла,<br><span style="font-size: 0.7em;">где 90 — усреднённая стоимость 1
+балла</span></p>
+<p style="margin-top: 20px;">Общая сумма инвестиций партии для ЛШ в его бизнес Faberlic промо-кодами <b>за 6 периодов</b> (за 3,5 месяца) может составить:</p>
+<p style="margin-left: 30px;">25 000 × 6 = <span class="fs_15"><b>150 000</b></span> руб.</p>
+<p>Это эквивалентно ≈ <b>1662</b> баллам</p>
+            </div>
+            <button class="dohod1__hidden" onclick="hidden__dohod1()">Закрыть</button>
+          </div>
+          <!-------------- ДОХОД 2 ЛШ -------------->
+          <div class="box-content__dohod2" id="dohod2">
+            <h2 class="dovod1__title">ДОХОД 2 ЛШ</h2>
+            <p style="margin-top: 20px;">Этот вариант дохода отличается от первого варианта увеличенным числом
+привлечённых КР:</p>
+<p style="margin-left: 30px;"> теперь их максимальное количество — <span style="font-size: 1.5em;"><b>30</b></span>, а не 5, как было
+рассмотрено в ДОХОДЕ 1</p>
+<p style="margin-left: 30px;">каждый КР привлекает 10 СТ</p>
+<p style="margin-left: 30px;">общее количество привлечённых СТ, таким образом, составляет:</p>
+<p style="margin-left: 60px;">30 КР × 10 СТ = <b>300</b> СТ</p>
+<h3 style="margin-top: 20px; margin-bottom: 20px;">Детализация расчётов</h3>
+<p style="margin-top: 20px;"> Основная ставка вознаграждения за каждого СТ составляет 50 рублей:</p>
+<p style="margin-left: 30px;">300 СТ × 50 руб. = <b>15 000</b> руб.</p>
+<p style="margin-top: 10px;">Повышенная ставка вознаграждения действует за лично привлеченных 10 СТ:</p>
+<p style="margin-left: 30px;">10 СТ × 150 руб. = <b>1 500</b> руб.</p>
+<p style="margin-top: 20px;">Общая сумма дохода за 1 период равна:</p>
+<p style="margin-left: 30px;">15 000 + 1 500 = <span class="fs_15"><b>16 500</b></span> руб.</p>
+<br>____________________
+                    <p style="font-size: 0.7em;">За 6 периодов:</p>
+                    <p style="margin-left: 30px;font-size: 0.7em;">16 500 × 6 = <span class="fs_15"><b>99 000</b></span> руб.</p>
+                    <h3 style="margin-top: 20px; margin-bottom: 20px;">Дополнительный бонус</h3>
+                    <h4 style="margin-bottom: 20px;">Дополнительные выплаты
+в виде промо-кодов:
+</h4>
+<p>Промо-коды, предоставляемые <b>самому ЛШ</b>:</p>
+<p style="margin-left: 30px;">20 промокодов × 500 руб. = <b>10 000</b> руб.</p>
+<p style="margin-top: 20px;">Промокоды за личное привлечение СТ:
+</p>
+<p style="margin-left: 30px;">5 промокодов × 500 руб. = <b>2 500</b> руб.</p>
+<p style="margin-top: 20px;">Промокоды за СТ, которого привлек КР:</p>
+<p style="margin-left: 30px;">5 промокодов × 500 руб. = <b>2 500</b> руб.</p>
+<p style="margin-top: 20px;">Всего за 30 КР:</p>
+<p style="margin-left: 30px;">2 500 × 30 = <b>75 000</b> руб.</p>
+<h3>Общий итоговый доход</h3>
+<p>16 500 + 10 000 + 2 500 + 75 000 = <b>87 500</b> руб.</p>
+<p>Это — инвестиции промо-кодами от партии для ЛШ в его бизнес в Faberlic <b>за 1 период</b>.</p>
+<p style="margin-left: 30px; margin-top: 10px;">≈ <b>972</b> балла за 1 период</p>
+<p style="margin-top: 20px;">Инвестиции промо-кодами от партии для ЛШ в его бизнес в Faberlic за 6
+периодов:</p>
+<p style="margin-left: 30px;">87 500 × 6 = <span class="fs_15"><b>525 000</b></span> руб.</p>
+<p style="margin-left: 30px;">≈ <span class="fs_15"><b>5 833,33</b></span> балла <b>за 6 периодов</b>.</p>
+<h3>Бонусная программа</h3>
+<p>После проведения выборов для ЛШ предусмотрено получение БОНУСА в размере <span class="fs_15"><b>50 000</b></span> рублей при выполнении
+определенных условий:</p>
+<p style="margin-top: 20px; margin-bottom: 20px;">1. Команда ЛШ: </p>
+<p style="margin-left: 30px;">— должна включать <b>минимум 10 активных КР</b>*.
+<br><span style="display: inline-block; margin-top: 10px;">* Активный КР определяется как тот, кто привлек не менее 10
+верифицированных СТ в течение всего периода «Торнадо» (с 27 апреля по 13
+сентября).</span></p>
+<p style="margin-left: 30px; margin-top: 10px;">* Активным КР может считаться сам ЛШ, если он привлек не менее 10
+верифицированных СТ в течение всего периода «Торнадо».</p>
+<p style="margin-top: 20px; margin-bottom: 20px;">2. Поддержка партии:</p>
+<p style="margin-left: 30px;">По итогам выборов на территории, выбранной ЛШ (привязанной при
+регистрации), партия должна набрать <span class="fs_15"><b>8%</b></span> и более голосов, чтобы участник
+получил бонус.</p>
+<p style="margin-left: 30px; margin-top: 10px;">Бонус начисляется только ЛШ, чьи команды состоят из КР и СТ, зарегистрированных
+именно на территории ЛШ.</p>
+<h3>Варианты использования промо-кодов стоимостью <b>500</b> рублей
+для ЛШ</h3>
+<h4>1. Активация неактивных консультантов в структуре</h4>
+<p style="margin-left: 30px;">Использование промокодов для активации неактивных
+консультантов в своей структуре. Консультанты, которые долгое время не проявляли
+активности, могут быть мотивированы вернуться к участию в покупках и
+мероприятиях с помощью этих промо-кодов.</p>
+<h4 style="margin-top: 10px;">2. Неактивные новички</h4>
+<p style="margin-left: 30px;">Промо-коды могут быть использованы для привлечения внимания новичков, которые
+пока не проявляют достаточной активности. Это помогает интегрировать их в работу
+команды и повысить их вовлечённость.</p>
+<h4 style="margin-top: 10px;">3. Промо-акции внутри команды</h4>
+<p style="margin-left: 30px;">Проведение промо-акций внутри команды с использованием промо-кодов
+стимулирует конкуренцию и повышает общую продуктивность. Участники могут
+получать бонусы или привилегии за достижение определённых целей.
+</p>
+<h4 style="margin-top: 10px;">4. Рекрутинг (+)</h4>
+<p style="margin-left: 30px;">Использование промо-кодов для рекрутинга позволяет привлекать новых консультантов
+в структуру. Плюс рядом с пунктом подчёркивает важность этого направления, так как
+увеличение числа участников является <b>ключевым фактором роста</b>.
+</p>
+<h4 style="margin-top: 10px;">5. Стимулирование КР</h4>
+<p style="margin-left: 30px;">Последний пункт касается стимулирования КР. Промокоды могут быть использованы
+для поощрения наиболее активных и успешных КР, что способствует повышению их
+мотивации и лояльности.</p>
+
+            <button class="dohod2__hidden" onclick="hiddenDohod2()">Закрыть</button>
+          </div>
+          <!-------------- РАСЧЁТ БАЛЛОВ ДЛЯ ЛШ -------------->
+          <div class="box-content__rasschetBallovLSH" id="rasschetBallovLSH">
+            <h2>Расчёт баллов для ЛШ</h2>
+            <h3>Детали расчёта:</h3>
+            <p style="margin-left: 30px;">1. Если <b>10 КР</b> приглашают в период с <b>28 сентября</b> по <b>11 октября</b> по <b>10</b> НК с промокодом <b>+1000</b> руб.:</p>
+            <p style="margin-left: 60px; margin-top: 10px;">— Каждый НК приносит ≈ <b>20 баллов</b>.</p>
+            <p style="margin-left: 60px; margin-top: 10px;">— Всего:</p>
+            <p style="margin-left: 90px; margin-top: 10px;">10 КР × 10 НК × 20 баллов = <span style="font-size: 1.5em;"><b>2000</b></span> баллов.</p>
+
+            <p style="margin-left: 30px; margin-top: 20px;">2. Если <b>20 КР</b> приглашают в период с <b>28 сентября</b> по <b>11 октября</b> по <b>10</b> НК с промокодом <b>+1000</b> руб.:</p>
+            <p style="margin-left: 60px; margin-top: 10px;">— Каждый НК приносит ≈ <b>20 баллов</b>.</p>
+            <p style="margin-left: 60px; margin-top: 10px;">— Всего:</p>
+            <p style="margin-left: 90px; margin-top: 10px;">20 КР × 10 НК × 20 баллов = <span style="font-size: 1.5em;"><b>4000</b></span> баллов.</p>
+            <p style="margin-left: 30px;">Такой результат даёт статус <span style="font-size: 1.5em;"><b>&laquo;Директор&raquo;</b></span>.</p>
+
+            <p style="margin-left: 30px; margin-top: 20px;">3. Если <b>30 КР</b> приглашают в период с <b>28 сентября</b> по <b>11 октября</b> по <b>10</b> НК с промокодом <b>+1000</b> руб.:</p>
+            <p style="margin-left: 60px; margin-top: 10px;">— Каждый НК приносит ≈ <b>20 баллов</b>.</p>
+            <p style="margin-left: 60px; margin-top: 10px;">— Всего:</p>
+            <p style="margin-left: 90px; margin-top: 10px;">30 КР × 10 НК × 20 баллов = <span style="font-size: 1.5em;"><b>6000</b></span> баллов.</p>
+            <p style="margin-left: 30px;">Такой результат даёт статус <span style="font-size: 1.5em;"><b>&laquo;Старший Директор&raquo;</b></span>.</p>
+            <button class="rasschetBallovLSH__hidden" onclick="hiddenrasschetBallovLSH()">Закрыть</button>
+          </div>
+          <!-------------- ПРОГРАММА КООРДИНАТОР «ДВИЖЕНИЕ 2026» -------------->
+          <div class="box-content__Koordinator" id="KoordinatorKtoMozhetStat">
+            <h2>Координатор (КР) «Движение 2026»</h2>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;">Период регистрации КР:</h3>
+            <p>Регистрация КР осуществляется с <b>4 мая</b> по <b>16 августа</b> 2026 года.</p>
+            <h3 style="margin-top: 20px; margin-bottom: 20px;">Кто может стать КР:</h3>
+            <p style="margin-left: 30px; margin-top: 10px;">1. <b>Гражданство и возраст</b>:</p>
+            <p style="margin-left: 60px; margin-top: 5px;">Участник должен быть гражданином <b>РФ</b> возрастом от <b>18</b> лет и старше.</p>
+<p style="margin-left: 30px; margin-top: 10px;">2. <b>Место проживания</b>:</p>
+<p style="margin-left: 60px; margin-top: 5px;">Проживать и быть зарегистрированным на территории
+проведения программы.</p>
+<p style="margin-left: 30px; margin-top: 10px;">3. <b>Опыт</b>:</p>
+<p style="margin-left: 60px; margin-top: 5px;">Желательно иметь опыт Активного Консультанта, Лидера Бизнес-Группы из
+структуры ЛШ, либо обслуживаться на Пункте Выдачи Заказов (ПВЗ) ЛШ.</p>
+<button class="Koordinator__hidden" onclick="hiddenKoordinator()">Закрыть</button>
+          </div>
+          <!-------------- ОСНОВНЫЕ ЗАДАЧИ КР -------------->
+          <div class="box-content__KoordinatorOsnovnyeZadachi" id="KoordinatorOsnovnyeZadachi">
+            <h2>Основные задачи КР</h2>
+            <p style="margin-top: 20px;">1. <b>Регистрация</b>:</p>
+            <p style="margin-left: 30px;">Необходимо зарегистрироваться на сайте программы по ссылке,
+полученной от ЛШ (действует 72 часа).</p>
+<p style="margin-top: 10px;">2. <b>Верификация</b>:</p>
+<p style="margin-left: 30px;">Подтверждение регистрационного номера и внесение данных для
+заключения Соглашения и Договора.</p>
+<p style="margin-top: 10px;">3. <b>Коммуникация</b>:</p>
+<p style="margin-left: 30px;">Создание чата в мессенджере и приглашение сторонников
+(необходимо избегать блокировки мессенджера).
+</p>
+<p style="margin-top: 10px;">4. <b>Набор сторонников (СТ)</b>:</p>
+<p style="margin-left: 30px;">Привлечение СТ для участия в выборах и голосовании за кандидата(-ов) партии.</p>
+<p style="margin-top: 10px;">5. <b>Контроль</b>:</p>
+<p style="margin-left: 30px;">Проверка верификации сторонников по телефону.</p>
+<p style="margin-top: 10px;">6. <b>Участие в выборах</b>:</p>
+<p style="margin-left: 30px;">Напоминать СТ о важности их голосования, информировать их о дне
+выборов.
+</p>
+<p style="margin-top: 10px;">7. <b>Организация голосования</b>:</p>
+<p style="margin-left: 30px;">Контролировать участие сторонников в голосовании.</p>
+<p style="margin-top: 10px;">8. <b>Развитие</b>:</p>
+<p style="margin-left: 30px;">Набирать новых членов Партии.</p>
+<button class="KoordinatorOsnovnyeZadachi__hidden" onclick="hiddenKoordinatorOsnovnyeZadachi()">Закрыть</button>
+          </div>
+          <!-------------- ДОХОД КР -------------->
+          <div style="padding-bottom: 20px;" class="box-content__KoordinatorDohod" id="KoordinatorDohod">
+            <h2>Доход КР</h2>
+            <h3 style="margin-top: 20px; margin-bottom: 20px">1. Период регистрации СТ:</h3>
+            <p style="margin-left: 30px;"> Регистрация СТ проходит с <b>25 мая</b> по <b>13 сентября</b>, что составляет <b>112 дней</b>.</p>
+            <h3 style="margin-top: 20px; margin-bottom: 20px">2. Формула расчета дохода:</h3>
+            <p style="margin-left: 30px;">Доход рассчитывается по формуле:</p>
+            <p style="margin-left: 60px; margin-top: 10px;"><b>Доход</b> = (<i>Количество человек</i>/<i>день</i>) × (<i>Оплата за человека</i>/<i>день</i>) × (<i>Количество дней</i>)</p>
+            <p style="margin-left: 90px;margin-top: 10px;">Где:</p>
+            <p style="margin-left: 120px;">— Оплата за одного человека в день составляет <b>150</b> рублей.</p>
+            <p style="margin-left: 120px;">— Количество дней — <b>112</b>.</p>
+            <h3 style="margin-top: 20px; margin-bottom: 20px">3. Примеры расчетов:</h3>
+            <p style="margin-left: 30px; margin-bottom: 10px;">— если регистрировать <b>по 1 человеку в день</b>:</p>
+            <p style="margin-left: 60px;">1 × 150 × 112 = <span style="font-size: 1.5em;"><b>16 800</b></span> рублей</p>
+            <p style="margin-left: 30px; margin-bottom: 10px;margin-top: 20px;">— если регистрировать <b>по 3 человека в день</b>:</p>
+            <p style="margin-left: 60px;">3 × 150 × 112 = <span style="font-size: 1.5em;"><b>50 400</b></span> рублей</p>
+            <p style="margin-left: 30px; margin-bottom: 10px;margin-top: 20px;">— если регистрировать <b>по 5 человек в день</b>:</p>
+            <p style="margin-left: 60px;">5 × 150 × 112 = <span style="font-size: 1.5em;"><b>84 000</b></span> рублей</p>
+            <p style="margin-left: 30px; margin-bottom: 10px;margin-top: 20px;">— если регистрировать <b>по 10 человек в день</b>:</p>
+            <p style="margin-left: 60px;">10 × 150 × 112 = <span style="font-size: 1.5em;"><b>168 000</b></span> рублей</p>
+            <h3 style="margin-top: 20px; margin-bottom: 20px">4. ВАЖНО:</h3>
+            <p style="margin-left: 30px;">Ограничений на количество привлеченных СТ нет, и доход зависит исключительно от
+усилий КР.</p>
+<p style="margin-left: 30px;margin-top: 10px;">Чем больше СТ удастся привлечь ежедневно, тем выше будет итоговая сумма
+заработка!!!</p>
+<h3>Варианты использования промокодов стоимостью 500 рублей
+для КР</h3>
+<p style="margin-top: 20px;">Промокоды предназначены для поддержки и мотивации КР в их работе.</p>
+<p style="margin-top: 10px;">Варианты использования промокодов:</p>
+<h4 style="margin-top: 20px;">1. Активизация неактивных консультантов в структуре: </h4>
+<p style="margin-top: 10px;margin-left: 30px;">— Этот вариант предполагает использование промокода для активации неактивных
+консультантов в структуре КР, если таковые имеются.</p>
+<h4 style="margin-top: 20px;">2. Активизация новичков:</h4>
+<p style="margin-top: 10px;margin-left: 30px;">— Здесь промокод можно использовать для активации новых консультантов,
+которые ранее не были активны или вообще не делали заказы на продукцию
+Faberlic.</p>
+<h4 style="margin-top: 20px;">3. Промо-акции внутри структуры:</h4>
+<p style="margin-top: 10px;margin-left: 30px;">— Промокоды могут применяться для проведения рекламных кампаний или
+специальных предложений внутри существующей структуры.</p>
+<h4 style="margin-top: 20px;">4. Рекрутинг:</h4>
+<p style="margin-top: 10px;margin-left: 30px;">— Использование промокодов для привлечения новых консультантов в структуру.</p>
+<button class="KoordinatorDohod__hidden" onclick="hiddenKoordinatorDohod()">Закрыть</button>
+
+          </div>
+          <!-------------- ДОПОЛНИТЕЛЬНЫЙ БОНУС АКТИВНЫМ КР -------------->
+          <div class="box-content__dopolnitelnyBonusAktivnymKoordinatoram" id="dopolnitelnyBonusAktivnymKoordinatoram">
+            <h2>Дополнительный бонус для активных КР:</h2>
+            <h3>1. По итогам программы «Движение 2026»:</h3>
+            <p style="margin-top: 10px;margin-left: 30px;">В период 14/2026 (с <b>28 сентября</b> по <b>11 октября</b>):</p>
+            <p style="margin-top: 10px;margin-left: 60px;">— КР становится участником «<b>Акция 1000 руб.</b>»:</p>
+            <p style="margin-top: 10px;margin-left: 90px;">дополнительно получает <b>+1000</b> руб.
+за каждого нового Консультанта FABERLIC, сделавшего заказ <b>от 2500 руб</b>.</p>
+<h3>2. Условия «Акции 1000 руб.»:</h3>
+<p style="margin-top: 10px;margin-left: 30px;"><b>Первая неделя</b> (28.09-04.10):</p>
+<p style="margin-top: 10px;margin-left: 60px;">Возможность <b>неограниченной регистрации НК в первую линию (под себя)</b> в
+FABERLIC с минимальным заказом <b>от 2500 руб</b>.</p>
+<p style="margin-top: 10px;margin-left: 30px;"><b>Вторая неделя</b> (05.10-11.10):</p>
+<p style="margin-top: 10px;margin-left: 60px;"> Регистрация новых консультантов <b>в глубину</b> (через промокоды*) с минимальным
+заказом <b>от 2500 руб</b>.</p>
+<br>________________________
+<p style="font-size: 0.7em;">* <b>Количество промокодов</b> соответствует <b>количеству верифицированных сторонников</b>,
+привлечённых за весь период программы «Торнадо».</p>
+<p style="margin-top: 20px;"><b>ВАЖНО!!!</b></p>
+<p style="margin-top: 10px;margin-left: 30px;">— «Акция 1000 руб.» распространяется на <b>активных ЛШ</b> и <b>КР</b>.</p>
+<p style="margin-top: 5px;margin-left: 30px;">— Основной целью является <b>привлечение НК</b> в компанию FABERLIC с обозначенными
+минимальными заказами (<b>от 2 500 руб</b>.), что приносит дополнительный доход КР.</p>
+<button class="dopolnitelnyBonusAktivnymKoordinatoram__hidden" onclick="hiddenDopolnitelnyBonusAktivnymKoordinatoram()">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
 
