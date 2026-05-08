@@ -1,1 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  display: block;
+  padding: 15px 0px;
+  background: linear-gradient(
+    to right,
+    rgb(15, 205, 202),
+    rgb(20, 225, 222),
+    rgb(50, 255, 252),
+    rgb(150, 255, 255),
+    rgb(255, 255, 255)
+  );
+}
+
+.fs_15 {
+  font-size: 1.5em;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background: rgb(15, 205, 202);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main__left {
+  width: 25%;
+  min-height: 100%;
+  padding: 20px;
+  position: sticky;
+  top: 100px;
+}
+
+.main__elem {
+  margin-top: 10px;
+}
+
+.main__link {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  background: linear-gradient(to top, rgb(0, 100, 102), rgb(15, 205, 202));
+  text-decoration: none;
+  color: rgb(65, 255, 252);
+  text-shadow: 0px -1px 0px rgb(0, 0, 0);
+}
+
+.main__link:hover {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to top, rgb(15, 205, 202), rgb(65, 255, 252));
+  border: 1px solid rgb(15, 205, 202);
+  text-shadow: 0px -1px 0px transparent;
+}
+
+.main__hr {
+  margin-top: 10px;
+  background: rgb(15, 205, 202);
+  border-color: rgb(15, 205, 202);
+  color: rgb(15, 205, 202);
+}
+
+.main__right {
+  width: 75%;
+  min-height: 100%;
+  padding: 20px;
+}
+
+.main__render {
+  width: 100%;
+  height: 100%;
+}
+
+#LSH-KtoMozhet,
+#osnovnyeZadachi,
+#Presentaciya,
+#dohod1,
+#dohod2,
+#KoordinatorKtoMozhetStat,
+#KoordinatorOsnovnyeZadachi,
+#KoordinatorDohod,
+#dopolnitelnyBonusAktivnymKoordinatoram,
+#rasschetBallovLSH {
+  display: none;
+}
+
+.LSH-KtoMozhet__text,
+.osnovnyeZadachi__text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-content ul li {
+  list-style-type: circle;
+  margin-left: 50px;
+  margin-bottom: 7px;
+}
+
+.box-content ol li {
+  margin-left: 50px;
+  margin-bottom: 7px;
+}
+
+.LSH-KtoMozhet__hidden,
+.osnovnyeZadachi__hidden,
+.dohod1__hidden,
+.dohod2__hidden,
+.Koordinator__hidden,
+.KoordinatorOsnovnyeZadachi__hidden,
+.KoordinatorDohod__hidden,
+.dopolnitelnyBonusAktivnymKoordinatoram__hidden,
+.rasschetBallovLSH__hidden {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 4px 10px;
+  background: rgb(255, 180, 180);
+  border: 1px solid rgb(180, 0, 0);
+  border-radius: 5px;
+}
+
+.hidden__Presentaciya {
+  margin-bottom: 20px;
+  padding: 4px 10px;
+  background: rgb(255, 180, 180);
+  border: 1px solid rgb(180, 0, 0);
+  border-radius: 5px;
+}
+
+.LSH-KtoMozhet__hidden:hover,
+.osnovnyeZadachi__hidden:hover,
+.hidden__Presentaciya:hover,
+.dohod1__hidden:hover,
+.dohod2__hidden:hover,
+.Koordinator__hidden:hover,
+.KoordinatorOsnovnyeZadachi__hidden:hover,
+.KoordinatorDohod__hidden:hover,
+.dopolnitelnyBonusAktivnymKoordinatoram__hidden:hover,
+.rasschetBallovLSH__hidden:hover {
+  cursor: pointer;
+  background: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.box-content__Presentaciya {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+
+.Presentaciya__left {
+  width: 15%;
+  height: calc(100vh - 210px);
+  overflow-y: auto;
+  text-align: center;
+}
+
+.Presentaciya__icon img {
+  width: 95%;
+}
+
+.Presentaciya__icon img:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(0, 150, 147);
+}
+
+.Presentaciya__center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 77%;
+}
+
+.Presentaciya__center img {
+  width: 100%;
+}
+
+.strelki-upravleniya__nazad,
+.strelki-upravleniya__vpered {
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 20px 10px;
+}
+
+.strelki-upravleniya__nazad:hover,
+.strelki-upravleniya__vpered:hover {
+  cursor: pointer;
+}
+
+.Presentaciya__right {
+  width: 7%;
+}
+
+#slide_1,
+#slide_2,
+#slide_3,
+#slide_4,
+#slide_5,
+#slide_6,
+#slide_7,
+#slide_8,
+#slide_9,
+#slide_10,
+#slide_11,
+#slide_12,
+#slide_13,
+#slide_14,
+#slide_15,
+#slide_16,
+#slide_17,
+#slide_18,
+#slide_19,
+#slide_20,
+#slide_21,
+#slide_22,
+#slide_23,
+#slide_24,
+#slide_25,
+#slide_26,
+#slide_27,
+#slide_28,
+#slide_29,
+#slide_30,
+#slide_31,
+#slide_32,
+#slide_33,
+#slide_34,
+#slide_35,
+#slide_36,
+#slide_37,
+#slide_38,
+#slide_39,
+#slide_40,
+#slide_41,
+#slide_42 {
+  display: none;
+}
+
+.box-content__dohod1 h3,
+.box-content__dohod2 h3,
+.box-content__Koordinator h3,
+.box-content__KoordinatorDohod h3,
+.box-content__dopolnitelnyBonusAktivnymKoordinatoram h3,
+.box-content__rasschetBallovLSH h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(15, 205, 202);
+}
+
+.dohod1__privlechenieStoronnikov {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.dohod1__text p {
+  margin-top: 10px;
+}
+
+.dohod1__box-bonusy {
+  margin-top: 20px;
+}
+
+.dohod1__box-usloviya {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
+  background: rgb(170, 255, 255);
+  padding: 20px;
+}
 
