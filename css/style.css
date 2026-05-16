@@ -101,7 +101,8 @@ h2 {
 #KoordinatorOsnovnyeZadachi,
 #KoordinatorDohod,
 #dopolnitelnyBonusAktivnymKoordinatoram,
-#rasschetBallovLSH {
+#rasschetBallovLSH,
+#programmaPartii {
   display: none;
 }
 
@@ -130,7 +131,8 @@ h2 {
 .KoordinatorOsnovnyeZadachi__hidden,
 .KoordinatorDohod__hidden,
 .dopolnitelnyBonusAktivnymKoordinatoram__hidden,
-.rasschetBallovLSH__hidden {
+.rasschetBallovLSH__hidden,
+.programmaPartii__hidden {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 4px 10px;
@@ -156,7 +158,8 @@ h2 {
 .KoordinatorOsnovnyeZadachi__hidden:hover,
 .KoordinatorDohod__hidden:hover,
 .dopolnitelnyBonusAktivnymKoordinatoram__hidden:hover,
-.rasschetBallovLSH__hidden:hover {
+.rasschetBallovLSH__hidden:hover,
+.programmaPartii__hidden:hover {
   cursor: pointer;
   background: rgb(255, 0, 0);
   border: 1px solid rgb(255, 0, 0);
@@ -293,3 +296,33 @@ h2 {
   padding: 20px;
 }
 
+.littl__link {
+  text-decoration: none;
+}
+
+#paragraf-1__top-full,
+#paragraf-1__bottom-full,
+#paragraf-2__top-full,
+#paragraf-2__bottom-full,
+#paragraf-3__top-full,
+#paragraf-3__bottom-full,
+#paragraf-4__top-full,
+#paragraf-4__bottom-full,
+#paragraf-5__top-full,
+#paragraf-5__bottom-full,
+#paragraf-6__top-full,
+#paragraf-6__bottom-full,
+#paragraf-7__top-full,
+#paragraf-7__bottom-full,
+#paragraf-8__top-full,
+#paragraf-8__bottom-full,
+#paragraf-9__top-full,
+#paragraf-9__bottom-full,
+#paragraf-10__top-full,
+#paragraf-10__bottom-full,
+#paragraf-11__top-full,
+#paragraf-11__bottom-full,
+#paragraf-12__top-full,
+#paragraf-12__bottom-full {
+  display: none;
+}
