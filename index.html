@@ -21,6 +21,9 @@
           <li class="main__elem">
             <a href="#" class="main__link" onclick="show__Presentaciya()">Презентация партии</a>
           </li>
+          <li class="main__elem">
+            <a href="#" class="main__link" onclick="show__programmaPartii()">Программа партии</a>
+          </li>
           <hr class="main__hr" style="margin-top: 20px; margin-bottom: 20px;"/>
           <li class="main__elem">
             <a href="#" class="main__link" onclick="show_LSH_KtoMozhet()"
@@ -321,6 +324,544 @@
                 <div class="Presentaciya__right">
                     <button class="hidden__Presentaciya" onclick="hiddenPresentaciya()">Закрыть</button>
                 </div>
+            </div>
+            <!-------------- ПРОГРАММА ПАРТИИ -------------->
+            <div class="box-content__programmaPartii" id="programmaPartii">
+                <h2 class="programmaPartii__title">
+                    Программа партии &laquo;НОВЫЕ ЛЮДИ&raquo;
+                </h2>
+                <ol style="margin-top: 20px;">
+                    <!----------- # 1 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            1. Доверие и достоинство — главный капитал страны.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-1__top-littl">
+                            Не нефть, не ракеты...<a class="littl__link" href="javascript:" onclick="show__paragraf_1_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 20px; margin-left: 30px;" id="paragraf-1__top-full">
+                            Не нефть, не ракеты, не ВВП. 
+                            <br>Экономисты давно доказали: благосостояние нации напрямую зависит от уровня доверия в обществе. 
+                            <br>В России только 25% людей считают, что большинству можно доверять. 
+                            <br>Это не приговор — это задача, которую можно решить. 
+                            <br>Доверие возвращается, когда институты работают предсказуемо и справедливо.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_1_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-1__bottom-littl">
+                            Презумпция добросовестности...<a class="littl__link" href="javascript:" onclick="show__paragraf_1_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-1__bottom-full">
+                            Презумпция добросовестности гражданина и бизнеса — не лозунг, а юридическая норма. 
+                            <br>Бремя доказывания — всегда на стороне государственного органа. 
+                            <br>Неустранимые противоречия в законах — всегда в пользу гражданина. 
+                            <br>Уведомительный порядок вместо разрешительного — от открытия бизнеса до проведения публичного мероприятия. 
+                            <br>Полный запрет на досудебную блокировку счетов граждан и бизнеса. 
+                            <br>Материальная ответственность должностных лиц за ошибочные решения, причинившие ущерб гражданам.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_1_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 2 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            2. Регулирование интернета — умно, а не широко.
+                        </h3>
+                        <p style="margin-top: 20px; margin-left: 30px;" id="paragraf-2__top-littl">
+                            Интернет — это...<a class="littl__link" href="javascript:" onclick="show__paragraf_2_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-2__top-full">
+                            Интернет — это рабочее место, источник дохода и пространство жизни для миллионов россиян. 
+                            <br>Блоги, каналы, онлайн-магазины — это годы труда и вложений. 
+                            <br>Ограничения в сети должны быть точечными и обоснованными, а не массовыми. 
+                            <br>То, что реально угрожает безопасности — блокируется. 
+                            <br>Всё остальное должно решаться иначе.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_2_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-2__bottom-littl">
+                            Пересмотр всех...<a class="littl__link" href="javascript:" onclick="show__paragraf_2_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-2__bottom-full">
+                            Пересмотр всех действующих блокировок за последние 5 лет: то, что защищает граждан — остаётся; то, что не даёт результата — пересматривается. 
+                            <br>Признание интернет-ресурсов — блогов, каналов, онлайн-магазинов — цифровым активом, равным по статусу физической собственности. 
+                            <br>Ограничение доступа к ресурсу — только по решению суда и с правом владельца на компенсацию, если решение будет отменено. 
+                            <br>Принцип соразмерности: если миллионы людей пользуются сервисом — значит, его нельзя отключить без серьёзных оснований и публичной процедуры.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_2_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>    
+                    </li>
+                    <!----------- # 3 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            3. ИИ-суд — правосудие со скоростью технологий.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-3__top-littl">
+                            Судебная система...<a class="littl__link" href="javascript:" onclick="show__paragraf_3_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-3__top-full">
+                            Судебная система перегружена. 
+                            <br>Простые дела рассматриваются месяцами. 
+                            <br>Технологии уже позволяют решать типовые споры быстрее, прозрачнее и дешевле. 
+                            <br>Интернет-суды в мире уже работают — и показывают, что до 98% решений не обжалуется. 
+                            <br>Это не замена правосудия — это его усиление.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_3_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-3__bottom-littl">
+                            Создание аккредитованных ИИ-судов...<a class="littl__link" href="javascript:" onclick="show__paragraf_3_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-3__bottom-full">
+                            Создание аккредитованных ИИ-судов на базе крупнейших технологических платформ. 
+                            <br>По гражданским и мелким экономическим спорам каждый гражданин получает право обратиться в ИИ-суд вместо обычного. 
+                            <br>Стороны загружают документы, ИИ анализирует и выносит решение — без очередей, быстро, прозрачно. 
+                            <br>С правом обжалования у живого судьи. 
+                            <br>По экономическим делам ответчик получает право перенести дело в аккредитованный независимый арбитраж. 
+                            <br>Три эффекта сразу: разгрузка судебной системы, скорость для граждан, повышение доверия к правосудию. 
+                            <br>Традиционные суды остаются — но теперь у них появляется стимул работать лучше.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_3_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 4 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            4. Самозанятые, фрилансеры, стартаперы — вы и есть экономика.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-4__top-littl">
+                            Миллионы молодых россиян...<a class="littl__link" href="javascript:" onclick="show__paragraf_4_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-4__top-full">
+                            Миллионы молодых россиян работают на себя — пишут код, снимают видео, делают дизайн, запускают онлайн-проекты. 
+                            <br>Это не теневая экономика — это её будущее. 
+                            <br>Но система до сих пор не воспринимает их всерьёз: банк не даёт ипотеку, потому что нет трудовой. 
+                            <br>Платформа меняет условия в одностороннем порядке — и ты ничего не можешь сделать. 
+                            <br>Болеешь — не получаешь ничего.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_4_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-4__bottom-littl">
+                            Признание дохода самозанятых...<a class="littl__link" href="javascript:" onclick="show__paragraf_4_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-4__bottom-full">
+                            Признание дохода самозанятых и фрилансеров банками и госорганами наравне с зарплатой: ипотека, кредиты, визы — по фактическому доходу, а не по записи в трудовой книжке. 
+                            <br>Добровольное социальное страхование для самозанятых: больничные, декретные, пенсионные отчисления — на понятных и доступных условиях, без принуждения. 
+                            <br>Защита от платформ: маркетплейсы и агрегаторы не могут менять условия сотрудничества задним числом и без предупреждения. 
+                            <br>Доступ самозанятых к госзаказам и грантам — наравне с юрлицами. 
+                            <br>Налоговые каникулы на 3 года для технологических стартапов с выручкой до 30 млн рублей. 
+                            <br>Государственный фонд софинансирования технологических проектов: ИИ, биотех, робототехника, энергетика — на каждый рубль частных инвестиций рубль от государства.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_4_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 5 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            5. Сильные регионы — сильная страна.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-5__top-littl">
+                            Молодёжь уезжает из...<a class="littl__link" href="javascript:" onclick="show__paragraf_5_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-5__top-full">
+                            Молодёжь уезжает из родных городов не от нелюбви к ним — а потому что возможности сосредоточены в нескольких мегаполисах. 
+                            <br>Настоящая федерация — это когда жить и строить карьеру можно в любом регионе.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_5_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-5__bottom-littl">
+                            Цифровой налог: платежи...<a class="littl__link" href="javascript:" onclick="show__paragraf_5_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-5__bottom-full">
+                            Цифровой налог: платежи от онлайн-сервисов и маркетплейсов идут в бюджет региона, где совершена покупка, а не по месту регистрации компании. 
+                            <br>Перераспределение налогов: основная часть остаётся в регионах, через центр — только доходы от природных ресурсов. 
+                            <br>Переезд штаб-квартир госкомпаний в регионы. 
+                            <br>Программа «Малая родина»: инфраструктура, спорт, культура, скоростной интернет в городах 50–300 тысяч — чтобы оставаться дома было не компромиссом, а нормальным выбором.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_5_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 6 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            6. Жильё — не роскошь, а старт.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-6__top-littl">
+                            Средняя квартира...<a class="littl__link" href="javascript:" onclick="show__paragraf_6_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-6__top-full">
+                            Средняя квартира в крупном городе стоит 25–30 годовых зарплат. 
+                            <br>Ипотека под двузначный процент. 
+                            <br>Первый взнос, который нужно копить годами. 
+                            <br>Для молодого специалиста или семьи покупка жилья — решение, определяющее всю жизнь. 
+                            <br>Рядом с ипотекой должна появиться нормальная альтернатива — доступная аренда с перспективой.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_6_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-6__bottom-littl">
+                            Арендное жильё...<a class="littl__link" href="javascript:" onclick="show__paragraf_6_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-6__bottom-full">
+                            Арендное жильё от государства: строительство доступных арендных домов для молодых специалистов до 35 лет и семей с детьми — по ценам на 40–50% ниже рынка, с правом выкупа через 10 лет. 
+                            <br>Полный аудит тарифов ЖКХ: каждый житель видит, из чего складывается каждый рубль. 
+                            <br>Результаты независимого аудита — онлайн. 
+                            <br>Право свободно менять управляющую компанию и поставщика ресурсов — так же легко, как мобильного оператора. 
+                            <br>Запрет на повышение тарифов выше инфляции без публичных слушаний.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_6_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 7 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            7. Образование — навыки, а не корочка.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-7__top-littl">
+                            Между тем, чему учат в школе...<a class="littl__link" href="javascript:" onclick="show__paragraf_7_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-7__top-full">
+                            Между тем, чему учат в школе и вузе, и тем, что нужно на работе — всё ещё большой разрыв. 
+                            <br>Выпускник, который не умеет ничего прикладного — это сигнал, что систему пора обновить. 
+                            <br>России нужны инженеры, предприниматели, программисты, медики — а не конвейер дипломов.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_7_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-7__bottom-littl">
+                            С 5-го класса — программирование...<a class="littl__link" href="javascript:" onclick="show__paragraf_7_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-7__bottom-full">
+                            С 5-го класса — программирование, основы права, медиаграмотность, критическое мышление. 
+                            <br>Не факультативно — обязательно. 
+                            <br>Старшая школа — реальная специализация с обязательной стажировкой на предприятии или в компании. 
+                            <br>Программа «Студенческий старт»: оплачиваемая стажировка для каждого студента с третьего курса — реальная работа с зарплатой, а не практика ради галочки. 
+                            <br>Зарплата учителя — не ниже 1,5 средних по региону. 
+                            <br>Грантовая программа для молодых учёных и инженеров, остающихся работать в России: жильё, лаборатории, подъёмные.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_7_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 8 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            8. Семья — не демография, а люди.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-8__top-littl">
+                            Решение создать семью...<a class="littl__link" href="javascript:" onclick="show__paragraf_8_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-8__top-full">
+                            Решение создать семью и родить ребёнка не должно быть финансовым подвигом. 
+                            <br>Молодым семьям нужна не разовая выплата, а система, которая работает на каждом этапе — от беременности до школы.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_8_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-8__bottom-littl">
+                            Государственный алиментный фонд...<a class="littl__link" href="javascript:" onclick="show__paragraf_8_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-8__bottom-full">
+                            Государственный алиментный фонд: если родитель не платит — государство платит за него и само взыскивает долг. 
+                            <br>Ребёнок получает деньги всегда. 
+                            <br>Закон о домашнем насилии с кризисными центрами и реальной ответственностью. 
+                            <br>Льготная ипотека с 12-й недели беременности. 
+                            <br>Автоматическая отсрочка по кредитам на 12 месяцев после рождения ребёнка. 
+                            <br>Гарантированное место в яслях и детском саду — по праву, а не в очереди. 
+                            <br>Сокращённый рабочий день для родителей детей до 3 лет — с компенсацией работодателю. 
+                            <br>Доступная психологическая помощь через ОМС — без стигмы и без длительного ожидания. 
+                            <br>Программа ментального здоровья в школах — чтобы ребёнок знал, что просить о помощи нормально.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_8_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 9 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            9. Социальная поддержка — быстро и без унижения.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-9__top-littl">
+                            Помощь должна приходить...<a class="littl__link" href="javascript:" onclick="show__paragraf_9_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-9__top-full">
+                            Помощь должна приходить к тому, кому она нужна — быстро и просто. 
+                            <br>Без десяти справок, без очереди, без ощущения, что ты кого-то о чём-то просишь. 
+                            <br>Современные технологии позволяют это сделать.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_9_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-9__bottom-littl">
+                            Адресная социальная поддержка...<a class="littl__link" href="javascript:" onclick="show__paragraf_9_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-9__bottom-full">
+                            Адресная социальная поддержка через цифровую платформу: помощь начисляется автоматически тем, кому положена — без бумажных справок и визитов в ведомства. 
+                            <br>Поддержка людей с инвалидностью: доступная среда, рабочие места, сопровождение — на деле, а не на бумаге. 
+                            <br>Бесплатные программы переквалификации для потерявших работу — с гарантированной стажировкой. 
+                            <br>Минимальная пенсия — не ниже реального прожиточного минимума в регионе.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_9_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 10 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            10. Цены — конкуренция вместо монополий.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-10__top-littl">
+                            Когда на рынке три-четыре...<a class="littl__link" href="javascript:" onclick="show__paragraf_10_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-10__top-full">
+                            Когда на рынке три-четыре крупных игрока — цены диктуют они, а не спрос и предложение. 
+                            <br>Настоящее импортозамещение — это не запреты, а создание условий, при которых отечественные производители могут конкурировать и выигрывать.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_10_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-10__bottom-littl">
+                            Демонополизация ключевых рынков...<a class="littl__link" href="javascript:" onclick="show__paragraf_10_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-10__bottom-full">
+                            Демонополизация ключевых рынков — продовольствие, стройматериалы, фармацевтика. 
+                            <br>Реальное антимонопольное регулирование. 
+                            <br>Льготные условия для фермеров и малых производителей на маркетплейсах — прямой доступ к покупателю без лишних посредников. 
+                            <br>Дешёвые кредиты и инфраструктура для отечественных производителей — чтобы российский товар побеждал не потому что импортный запретили, а потому что он лучше и дешевле.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_10_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 11 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            11. Стабильные правила — основа развития.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-11__top-littl">
+                            Когда правила меняются...<a class="littl__link" href="javascript:" onclick="show__paragraf_11_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-11__top-full">
+                            Когда правила меняются часто и непредсказуемо — страдают все: и бизнес, и обычные люди. 
+                            <br>Предсказуемость — это не скука. 
+                            <br>Это условие, при котором человек может планировать жизнь, а предприниматель — инвестировать.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_11_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-11__bottom-littl">
+                            Все новые ограничительные законы...<a class="littl__link" href="javascript:" onclick="show__paragraf_11_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-11__bottom-full">
+                            Все новые ограничительные законы для граждан и бизнеса вступают в силу только через 2 года с момента принятия — чтобы общество успело оценить последствия и подготовиться. 
+                            <br>Конституционный аудит: действующие законы и нормативные акты проверяются на соответствие правам граждан. 
+                            <br>Всё, что противоречит — приводится в соответствие. 
+                            <br>Декриминализация ненасильственных экономических нарушений: штрафы и компенсации вместо лишения свободы за то, что не несёт угрозы жизни. 
+                            <br>Тюрьма — для тех, кто опасен. 
+                            <br>Для остальных — цивилизованные инструменты.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_11_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                    <!----------- # 12 ----------->
+                    <li>
+                        <h3 style="margin-top: 30px;">
+                            12. Россия, в которой хочется жить.
+                        </h3>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-12__top-littl">
+                            Мы хотим гордиться...<a class="littl__link" href="javascript:" onclick="show__paragraf_12_TopFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-top: 10px; margin-left: 30px;" id="paragraf-12__top-full">
+                            Мы хотим гордиться своей страной — за качество жизни, за технологические достижения, за науку и культуру, за то, как Россия относится к своим гражданам. 
+                            <br>Настоящее величие строится изнутри — когда талантливые люди хотят оставаться и создавать здесь.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_12_TopFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                        <h4 style="margin-top: 10px; margin-bottom: 10px; margin-left: 60px;">
+                            К чему стремимся и что делаем:
+                        </h4>
+                        <p style="margin-left: 90px;" id="paragraf-12__bottom-littl">
+                            Программа технологического суверенитета...<a class="littl__link" href="javascript:" onclick="show__paragraf_12_BottomFull()">
+                                <span style="color: rgb(0,150,147);">
+                                    &#9660;
+                                </span>
+                            </a>
+                        </p>
+                        <p style="margin-left: 90px;" id="paragraf-12__bottom-full">
+                            Программа технологического суверенитета: собственные разработки в ИИ, микроэлектронике, биотехнологиях и космосе — через инвестиции и человеческий капитал. 
+                            <br>Каждый рубль бюджета — в открытом доступе. 
+                            <br>Все госзакупки и контракты — онлайн. 
+                            <br>Прозрачность — лучший способ укрепить доверие к власти. 
+                            <br>Цифровая платформа для гражданских инициатив: 100 000 подписей — парламент обязан рассмотреть. 
+                            <br>Восстановление международных экономических связей: Россия — страна, с которой выгодно и интересно сотрудничать.<a class="littl__link" href="javascript:" onclick="hidden__paragraf_12_BottomFull()">
+                                <span style="color: rgb(255,0,0);">
+                                    &#9650;
+                                </span>
+                            </a>
+                        </p>
+                    </li>
+                </ol>
+                <button class="programmaPartii__hidden" onclick="hiddenProgrammaPartii()">Закрыть</button>
             </div>
             <!-------------- КТО МОЖЕТ СТАТЬ ЛШ -------------->
             <div class="box-content__LSH-KtoMozhet" id="LSH-KtoMozhet">
@@ -643,7 +1184,7 @@ Faberlic.</p>
             <p style="margin-top: 10px;margin-left: 30px;">В период 14/2026 (с <b>28 сентября</b> по <b>11 октября</b>):</p>
             <p style="margin-top: 10px;margin-left: 60px;">— КР становится участником «<b>Акция 1000 руб.</b>»:</p>
             <p style="margin-top: 10px;margin-left: 90px;">дополнительно получает <b>+1000</b> руб.
-на каждого нового Консультанта FABERLIC, сделавшего заказ <b>от 2500 руб</b>.</p>
+за каждого нового Консультанта FABERLIC, сделавшего заказ <b>от 2500 руб</b>.</p>
 <h3>2. Условия «Акции 1000 руб.»:</h3>
 <p style="margin-top: 10px;margin-left: 30px;"><b>Первая неделя</b> (28.09-04.10):</p>
 <p style="margin-top: 10px;margin-left: 60px;">Возможность <b>неограниченной регистрации НК в первую линию (под себя)</b> в
