@@ -3838,3 +3838,419 @@ function hiddenrasschetBallovLSH() {
   rasschetBallovLSHElem.style = "display: none;";
 }
 
+function show__programmaPartii() {
+  programmaPartiiElem = document.getElementById("programmaPartii");
+  programmaPartiiElem.style = "display: block;";
+}
+
+function hiddenProgrammaPartii() {
+  programmaPartiiElem.style = "display: none;";
+}
+
+/* -- # 1 -- */
+
+function show__paragraf_1_TopFull() {
+  paragraf_1_top_fullElem = document.getElementById("paragraf-1__top-full");
+  paragraf_1_top_littlElem = document.getElementById("paragraf-1__top-littl");
+  paragraf_1_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_1_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_1_TopFull() {
+  paragraf_1_top_fullElem.style = "display: none";
+  paragraf_1_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_1_BottomFull() {
+  paragraf_1_bottom_fullElem = document.getElementById(
+    "paragraf-1__bottom-full",
+  );
+  paragraf_1_bottom_littlElem = document.getElementById(
+    "paragraf-1__bottom-littl",
+  );
+  paragraf_1_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_1_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_1_BottomFull() {
+  paragraf_1_bottom_fullElem.style = "display: none";
+  paragraf_1_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 2 -- */
+
+function show__paragraf_2_TopFull() {
+  paragraf_2_top_fullElem = document.getElementById("paragraf-2__top-full");
+  paragraf_2_top_littlElem = document.getElementById("paragraf-2__top-littl");
+  paragraf_2_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_2_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_2_TopFull() {
+  paragraf_2_top_fullElem.style = "display: none";
+  paragraf_2_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_2_BottomFull() {
+  paragraf_2_bottom_fullElem = document.getElementById(
+    "paragraf-2__bottom-full",
+  );
+  paragraf_2_bottom_littlElem = document.getElementById(
+    "paragraf-2__bottom-littl",
+  );
+  paragraf_2_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_2_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_2_BottomFull() {
+  paragraf_2_bottom_fullElem.style = "display: none";
+  paragraf_2_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 3 -- */
+
+function show__paragraf_3_TopFull() {
+  paragraf_3_top_fullElem = document.getElementById("paragraf-3__top-full");
+  paragraf_3_top_littlElem = document.getElementById("paragraf-3__top-littl");
+  paragraf_3_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_3_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_3_TopFull() {
+  paragraf_3_top_fullElem.style = "display: none";
+  paragraf_3_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_3_BottomFull() {
+  paragraf_3_bottom_fullElem = document.getElementById(
+    "paragraf-3__bottom-full",
+  );
+  paragraf_3_bottom_littlElem = document.getElementById(
+    "paragraf-3__bottom-littl",
+  );
+  paragraf_3_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_3_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_3_BottomFull() {
+  paragraf_3_bottom_fullElem.style = "display: none";
+  paragraf_3_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 4 -- */
+
+function show__paragraf_4_TopFull() {
+  paragraf_4_top_fullElem = document.getElementById("paragraf-4__top-full");
+  paragraf_4_top_littlElem = document.getElementById("paragraf-4__top-littl");
+  paragraf_4_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_4_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_4_TopFull() {
+  paragraf_4_top_fullElem.style = "display: none";
+  paragraf_4_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_4_BottomFull() {
+  paragraf_4_bottom_fullElem = document.getElementById(
+    "paragraf-4__bottom-full",
+  );
+  paragraf_4_bottom_littlElem = document.getElementById(
+    "paragraf-4__bottom-littl",
+  );
+  paragraf_4_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_4_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_4_BottomFull() {
+  paragraf_4_bottom_fullElem.style = "display: none";
+  paragraf_4_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 5 -- */
+
+function show__paragraf_5_TopFull() {
+  paragraf_5_top_fullElem = document.getElementById("paragraf-5__top-full");
+  paragraf_5_top_littlElem = document.getElementById("paragraf-5__top-littl");
+  paragraf_5_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_5_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_5_TopFull() {
+  paragraf_5_top_fullElem.style = "display: none";
+  paragraf_5_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_5_BottomFull() {
+  paragraf_5_bottom_fullElem = document.getElementById(
+    "paragraf-5__bottom-full",
+  );
+  paragraf_5_bottom_littlElem = document.getElementById(
+    "paragraf-5__bottom-littl",
+  );
+  paragraf_5_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_5_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_5_BottomFull() {
+  paragraf_5_bottom_fullElem.style = "display: none";
+  paragraf_5_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 6 -- */
+
+function show__paragraf_6_TopFull() {
+  paragraf_6_top_fullElem = document.getElementById("paragraf-6__top-full");
+  paragraf_6_top_littlElem = document.getElementById("paragraf-6__top-littl");
+  paragraf_6_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_6_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_6_TopFull() {
+  paragraf_6_top_fullElem.style = "display: none";
+  paragraf_6_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_6_BottomFull() {
+  paragraf_6_bottom_fullElem = document.getElementById(
+    "paragraf-6__bottom-full",
+  );
+  paragraf_6_bottom_littlElem = document.getElementById(
+    "paragraf-6__bottom-littl",
+  );
+  paragraf_6_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_6_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_6_BottomFull() {
+  paragraf_6_bottom_fullElem.style = "display: none";
+  paragraf_6_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 7 -- */
+
+function show__paragraf_7_TopFull() {
+  paragraf_7_top_fullElem = document.getElementById("paragraf-7__top-full");
+  paragraf_7_top_littlElem = document.getElementById("paragraf-7__top-littl");
+  paragraf_7_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_7_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_7_TopFull() {
+  paragraf_7_top_fullElem.style = "display: none";
+  paragraf_7_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_7_BottomFull() {
+  paragraf_7_bottom_fullElem = document.getElementById(
+    "paragraf-7__bottom-full",
+  );
+  paragraf_7_bottom_littlElem = document.getElementById(
+    "paragraf-7__bottom-littl",
+  );
+  paragraf_7_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_7_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_7_BottomFull() {
+  paragraf_7_bottom_fullElem.style = "display: none";
+  paragraf_7_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 8 -- */
+
+function show__paragraf_8_TopFull() {
+  paragraf_8_top_fullElem = document.getElementById("paragraf-8__top-full");
+  paragraf_8_top_littlElem = document.getElementById("paragraf-8__top-littl");
+  paragraf_8_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_8_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_8_TopFull() {
+  paragraf_8_top_fullElem.style = "display: none";
+  paragraf_8_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_8_BottomFull() {
+  paragraf_8_bottom_fullElem = document.getElementById(
+    "paragraf-8__bottom-full",
+  );
+  paragraf_8_bottom_littlElem = document.getElementById(
+    "paragraf-8__bottom-littl",
+  );
+  paragraf_8_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_8_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_8_BottomFull() {
+  paragraf_8_bottom_fullElem.style = "display: none";
+  paragraf_8_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 9 -- */
+
+function show__paragraf_9_TopFull() {
+  paragraf_9_top_fullElem = document.getElementById("paragraf-9__top-full");
+  paragraf_9_top_littlElem = document.getElementById("paragraf-9__top-littl");
+  paragraf_9_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_9_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_9_TopFull() {
+  paragraf_9_top_fullElem.style = "display: none";
+  paragraf_9_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_9_BottomFull() {
+  paragraf_9_bottom_fullElem = document.getElementById(
+    "paragraf-9__bottom-full",
+  );
+  paragraf_9_bottom_littlElem = document.getElementById(
+    "paragraf-9__bottom-littl",
+  );
+  paragraf_9_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_9_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_9_BottomFull() {
+  paragraf_9_bottom_fullElem.style = "display: none";
+  paragraf_9_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 10 -- */
+
+function show__paragraf_10_TopFull() {
+  paragraf_10_top_fullElem = document.getElementById("paragraf-10__top-full");
+  paragraf_10_top_littlElem = document.getElementById("paragraf-10__top-littl");
+  paragraf_10_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_10_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_10_TopFull() {
+  paragraf_10_top_fullElem.style = "display: none";
+  paragraf_10_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_10_BottomFull() {
+  paragraf_10_bottom_fullElem = document.getElementById(
+    "paragraf-10__bottom-full",
+  );
+  paragraf_10_bottom_littlElem = document.getElementById(
+    "paragraf-10__bottom-littl",
+  );
+  paragraf_10_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_10_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_10_BottomFull() {
+  paragraf_10_bottom_fullElem.style = "display: none";
+  paragraf_10_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 11 -- */
+
+function show__paragraf_11_TopFull() {
+  paragraf_11_top_fullElem = document.getElementById("paragraf-11__top-full");
+  paragraf_11_top_littlElem = document.getElementById("paragraf-11__top-littl");
+  paragraf_11_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_11_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_11_TopFull() {
+  paragraf_11_top_fullElem.style = "display: none";
+  paragraf_11_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_11_BottomFull() {
+  paragraf_11_bottom_fullElem = document.getElementById(
+    "paragraf-11__bottom-full",
+  );
+  paragraf_11_bottom_littlElem = document.getElementById(
+    "paragraf-11__bottom-littl",
+  );
+  paragraf_11_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_11_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_11_BottomFull() {
+  paragraf_11_bottom_fullElem.style = "display: none";
+  paragraf_11_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
+
+/* -- # 12 -- */
+
+function show__paragraf_12_TopFull() {
+  paragraf_12_top_fullElem = document.getElementById("paragraf-12__top-full");
+  paragraf_12_top_littlElem = document.getElementById("paragraf-12__top-littl");
+  paragraf_12_top_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+  paragraf_12_top_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_12_TopFull() {
+  paragraf_12_top_fullElem.style = "display: none";
+  paragraf_12_top_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 30px;";
+}
+
+function show__paragraf_12_BottomFull() {
+  paragraf_12_bottom_fullElem = document.getElementById(
+    "paragraf-12__bottom-full",
+  );
+  paragraf_12_bottom_littlElem = document.getElementById(
+    "paragraf-12__bottom-littl",
+  );
+  paragraf_12_bottom_fullElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+  paragraf_12_bottom_littlElem.style = "display: none;";
+}
+
+function hidden__paragraf_12_BottomFull() {
+  paragraf_12_bottom_fullElem.style = "display: none";
+  paragraf_12_bottom_littlElem.style =
+    "display: inline-block; margin-top: 10px; margin-left: 90px;";
+}
